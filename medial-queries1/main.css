@@ -1,3 +1,50 @@
 body {
   background: blanchedalmond;
 }
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+.a{
+  width: 100%;
+  border: 1px solid;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.b{
+  width: 100%;
+  border: 1px solid;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.c{
+  width: 100%;
+  border: 1px solid;
+  height: 140px;
+  margin-bottom: 20px;
+}
+@media (min-width: 700px){
+  body{
+    background-color: burlywood
+  }
+  .container{
+    justify-content: space-between;
+  }
+  .b{
+    width: 73%;
+  }
+  .c{
+    width: 24%;
+    height: 600px;
+  }
+}
+
+
+
+
+
+
