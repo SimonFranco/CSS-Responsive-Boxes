@@ -1,3 +1,59 @@
 body {
   background: peachpuff;
 }
+.container div{
+  background-color: burlywood;
+  border: 0.5px solid;
+}
+.container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.a{
+  width: 98%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.b,.c,.d,.e,.f,.g{
+  width: 31%;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.b,.c,.e, .f{
+  margin-right: 2%;
+  
+}
+.h{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+@media(min-width:700px){
+  .container{
+  }
+.e,.f,.g{
+  order: 1;
+  position: relative;
+  top: -225px
+}
+.b,.c,.d,.h{
+  width: 22%;
+}
+.e,.f,.g{
+  width: 22%;
+}
+.d{
+  margin-right: 2%;
+}
+.h{
+  margin-left: 1%;
+  height: 428px;
+}
+.b,.c,.e, .f{
+  margin-right: 2%;
+  
+}
+}
